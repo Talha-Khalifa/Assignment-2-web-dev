@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Talha Khalifa-->
+    <!--Email- khalifatalham@gmail.com-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description of the page" content="This is our contact page.">
+    <meta name="keywords" content="Mahatma Gandhi, Biography, Gandhi bapu">
+    <meta name="author" content="width= device-width, initial-scale= 1.0">
+    <link rel="stylesheet" type="text/css" href="normalized.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact us</title>
+</head>
+<body>
+    <header class = "structural">
+        <h1 style="color: red; font-size: 30px;"> Mahatma Gandhi</h1>
+    </header>
+    <nav class = "navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="media.html">Media</a></li>
+        </ul>
+        
+    </nav>
+    <section>
+    <main class="structural">
+    <!-- creating a form for contacting -->
+    <form action="" id="myForm">
+        <h2>Contact</h2>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" autofocus required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required minlength="10" maxlength="10">
+        </div>
+        <fieldset>
+        <div>
+            <label for="Topic">Topics:</label>
+            <select id="Topic" name="Topic" required>
+                <option value="" disabled selected>Select a topic to know more about Gandhiji</option>
+                <option value="leadership">Mahatma Gandhi and his Leadership</option>
+                <option value="independence">independence movements for India</option>
+                <option value="teachings">The teachings of non-violence by Mahatma Gandhi</option>
+            </select>
+        </div>
+        </fieldset>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        
+        <div>
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate">
+        </div>
+        <label for="human">I am a human.</label>
+        <input type="checkbox" id="human" value="true" name="checkbox" required checked>
+        <div>
+            <input type="submit" name="submit" id="submit" value="Submit">
+        </div>
+    </form>
+    </main>
+    <aside class="structural">
+        <h2>Additional information</h2>
+        <!-- unordered lists and list items  -->
+        <!-- shortcut ul>(li>a)*3 -->
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank">Wikipedia</a></li>
+            <li><a href="https://www.britannica.com/biography/Mahatma-Gandhi" target="_blank">Britannica</a></li>
+            <li><a href="https://www.bl.uk/people/mahatma-gandhi" target="_blank">British Library</a></li>
+        </ul>
+</aside>
+</section>
+<footer class="structural">
+    <p>&copy;Talha Khalifa 2023</p>
+</footer>
+</body>
+</html>

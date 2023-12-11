@@ -1,0 +1,15 @@
+@media screen and (max-width: 789px){
+    body{
+        font-size: 0.673rem;
+    }
+    #myForm{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    aside {
+        background-image: url('images/img9.jpeg');
+    }
+}
