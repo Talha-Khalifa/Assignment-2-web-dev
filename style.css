@@ -51,10 +51,14 @@ main
 }
 #gallery{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr;
-    row-gap: 1rem;
-    column-gap: 1rem;
+    
+    grid-template-columns:repeat(3,1fr);
+}
+.threebythree
+{
+    clip-path: polygon(0% 0%,100% 3%,98% 99%,3% 93%);
+    width:90%;
+    height:90%;
 }
 form{
     border: 0.25rem dashed rgb(70, 56, 195);
